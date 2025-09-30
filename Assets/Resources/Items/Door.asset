@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07382d3ef960c7247a1f4c7d5386748c, type: 3}
+  m_Name: Door
+  m_EditorClassIdentifier: 
+  displayName: Door
+  description: 'require : 3 stones'
+  type: 3
+  icon: {fileID: 21300000, guid: 0cde4bf7f42ac0a459bb4dca61ed2d47, type: 3}
+  dropPrefab: {fileID: 8379268910998650384, guid: 0e602dd73fac31045b3f3d1e42c8fbf5, type: 3}
+  canStack: 1
+  maxStackAmount: 5
+  consumables: []
+  full: 0
+  healing: 0
+  isCraftable: 1
+  requiredItems:
+  - {fileID: 11400000, guid: 78c84e7a22226b64786fb22fb5fd2792, type: 2}
+  requiredAmount: 03000000
+  prefabToPlace: {fileID: 8379268910998650384, guid: 0e602dd73fac31045b3f3d1e42c8fbf5, type: 3}
+  attackPower: 0
+  woodAttackPower: 0
+  stoneAttackPower: 0
+  heat: 0

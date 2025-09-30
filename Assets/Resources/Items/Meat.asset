@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07382d3ef960c7247a1f4c7d5386748c, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: 
+  displayName: Meat
+  description: relieve hunger
+  type: 2
+  icon: {fileID: 21300000, guid: 78df7d8ac8f007146be6495abde65206, type: 3}
+  dropPrefab: {fileID: 7849225649350278182, guid: 831ea1b1b081dfd4482474bed0d61f24, type: 3}
+  canStack: 1
+  maxStackAmount: 10
+  consumables: []
+  full: 30
+  healing: 0
+  isCraftable: 0
+  requiredItems: []
+  requiredAmount: 
+  prefabToPlace: {fileID: 0}
+  attackPower: 0
+  woodAttackPower: 0
+  stoneAttackPower: 0
+  heat: 0
